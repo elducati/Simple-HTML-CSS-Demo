@@ -1,0 +1,44 @@
+body {
+  background-color: #FFFCAB;
+    
+}
+h1 {
+  font-family: Helvetica, Arial, Sans-Serif;
+  background-color: #E8DE9B;
+  text-align: center;
+}
+h3 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 1;
+  align-content: space-around;
+  justify-content: center;
+  background-color: #FFEEB8
+ 
+}
+#books {
+  background-color: #E8CE9B;
+}
+#foods {
+  background-color: #FFDAAB;
+}
+#songs {
+  background-color: #E8CE9B;
+}
+#movies {
+  background-color: #FFDAAB;
+}
+.favs {
+  width: 400px;
+}
